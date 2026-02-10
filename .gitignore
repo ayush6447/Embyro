@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+.venv
+env/
+ENV/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+
+# Model / Data
+*.keras
+*.h5
+*.csv
+model/Images/
+blastocyst/Images/
+
+# IDE / System
+.DS_Store
+.vscode/
+.idea/
