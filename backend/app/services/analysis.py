@@ -4,6 +4,7 @@ import numpy as np
 import tensorflow as tf
 import cv2
 import os
+from datetime import datetime
 
 # --- Model Loading (Singleton) ---
 MODEL_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../model/fine_tuned_model.keras"))
@@ -165,5 +166,11 @@ def analyze_embryo_batch(
             notes=notes,
         )
         results.append(result)
+
+        # Save to DB (Fire & Forget)
+        doc = result.model_dump()
+        doc["timestamp"] = datetime.utcnow()
+        doc["metadata"] = metadata
+        save_analysis_document(doc)
 
     return results
