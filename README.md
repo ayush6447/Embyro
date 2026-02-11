@@ -1,8 +1,8 @@
-# EMBRYO-XAI: Precision IVF Assessment System
+# EmbryogenAI: Precision IVF Assessment System
 
 ![Status](https://img.shields.io/badge/Status-Beta-emerald) ![License](https://img.shields.io/badge/License-MIT-blue) ![Tech](https://img.shields.io/badge/Stack-FastAPI%20|%20React%20|%20TensorFlow-orange)
 
-**EMBRYO-XAI** is an advanced, computer-vision analytical tool designed to assist embryologists in assessing blastocyst quality. Leveraging a **ResNet50V2** deep learning architecture, it provides objective, consistent grading (Gardner Scale) and implantation probability predictions, backed by explainable AI (Grad-CAM) visualizations.
+**EmbryogenAI** is an advanced, computer-vision analytical tool designed to assist embryologists in assessing blastocyst quality. Leveraging a **ResNet50V2** deep learning architecture, it provides objective, consistent grading (Gardner Scale) and implantation probability predictions, backed by explainable AI (Grad-CAM) visualizations.
 
 > ⚠️ **Disclaimer:** This tool is for **Research Use Only**. It has not been approved by the FDA or any regulatory authority for clinical diagnosis.
 
