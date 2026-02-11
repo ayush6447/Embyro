@@ -154,7 +154,7 @@ export const App: React.FC = () => {
 
       <footer className="border-t border-dark-700 py-8 mt-auto">
         <div className="max-w-7xl mx-auto px-4 text-center text-slate-500 text-sm">
-          <p className="mb-2">© 2026 EmbryogenAI Research Project.</p>
+          <p className="mb-2">EmbryogenAI Research Project.</p>
           <p className="max-w-2xl mx-auto">
             All analysis is computer-generated based on morphological feature extraction (Transfer Learning on ResNet50).
             Results correlate with standard Gardner scoring but do not replace human expert assessment.
