@@ -8,7 +8,7 @@ export const ResourcesPage: React.FC = () => {
             {/* Header */}
             <div className="text-center space-y-4">
                 <h1 className="text-4xl font-bold text-white">Model & Data Transparency</h1>
-                <p className="text-slate-400 text-lg">Detailed information about the EMBRYO-XAI system architecture and training data.</p>
+                <p className="text-slate-400 text-lg">Detailed information about the EmbryogenAI system architecture and training data.</p>
             </div>
 
             {/* Disclaimer Card */}

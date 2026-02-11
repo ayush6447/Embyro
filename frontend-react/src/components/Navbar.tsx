@@ -22,7 +22,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activePage, setActivePage }) => 
                             <Microscope className="h-6 w-6 text-primary-500" />
                         </div>
                         <div>
-                            <span className="text-xl font-bold tracking-tight text-white">EMBRYO-XAI</span>
+                            <span className="text-xl font-bold tracking-tight text-white">EmbryogenAI</span>
                             <span className="ml-2 text-xs font-medium text-primary-500 bg-primary-500/10 px-2 py-0.5 rounded-full">BETA</span>
                         </div>
                     </div>
